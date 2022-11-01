@@ -8,6 +8,11 @@
 </head>
 <body>
 	Aluno <%= request.getParameter("nome") %>
+	<br/>
+	RGM <% request.getParameter("rgm") %>
+	<br/>
+	<p align="center">
+		Ultima Atualização <%=new java.util.Date() %>
 
 </body>
 </html>
